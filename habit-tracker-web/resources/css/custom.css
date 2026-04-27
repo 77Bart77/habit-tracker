@@ -1,0 +1,101 @@
+body {
+  background: url('/images/back.png') center/cover no-repeat fixed;
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto; 
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  width: 250px;
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  color: #fff;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer:hover {
+  opacity: 1;
+}
+
+.logo-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-hover:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.4));
+}
+
+.guide-robot {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.guide-robot:hover {
+    transform: scale(1.06) translateY(-2px);
+    filter: drop-shadow(0 0 8px rgba(255,255,255,0.8));
+}
+
+/* ========================= */
+/* PIXEL LIKE BUTTON */
+/* ========================= */
+
+.pixel-like-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    padding: 6px 10px;
+
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.pixel-like-btn:hover {
+    background: rgba(30, 41, 59, 0.9);
+    border-color: #64748b;
+    transform: translateY(-1px);
+}
+
+/* serduszko */
+.pixel-heart rect {
+    fill: #64748b;
+    transition: fill 0.2s ease;
+}
+
+/* licznik */
+.like-count {
+    font-size: 12px;
+    color: #cbd5f5;
+}
+
+/* ====== POLUBIONE ====== */
+.pixel-like-btn.liked {
+    border-color: #f43f5e;
+    background: rgba(244, 63, 94, 0.15);
+}
+
+.pixel-like-btn.liked .pixel-heart rect {
+    fill: #f43f5e;
+}
+
+.pixel-like-btn.liked .like-count {
+    color: #fda4af;
+}
+
+
+
