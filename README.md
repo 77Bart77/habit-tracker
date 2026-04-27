@@ -138,6 +138,19 @@ password: admin
 
 Users can also create a new account using the registration form.
 
+##  Screenshots
+
+### Web App
+
+![Dashboard](assets/screenshots/dashboard.png)
+![Goal Details](assets/screenshots/web-goal.png)
+![Goal Progress](assets/screenshots/web-goal-2.png)
+
+### Mobile App
+
+![Mobile Goals](assets/screenshots/mobile-goals.png)
+![Mobile Profile](assets/screenshots/mobile-profile.png)
+
 Demo Video
 
 Project demonstration video (Polish language)
